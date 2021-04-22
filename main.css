@@ -38,6 +38,12 @@ main {
     margin: 50px;
 }
 
+.policy {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .preview {
     height: 500px;
 }
