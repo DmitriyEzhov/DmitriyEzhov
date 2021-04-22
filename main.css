@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #FAFBFA;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.header {
+    margin: 0;
+    height: 100px;
+    font-size: 36px;
+    line-height: 100px;
+    font-family: 'Russo One', Roboto, sans-serif;
+}
+
+.header_blue {
+    color: #3058B2;
+}
+
+.header_pink {
+    color: #EA3C53;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.preview {
+    height: 500px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    font-size: 12px;
+    font-family: 'Russo One', Roboto, sans-serif;
+    color: black;
+    text-decoration-line: none;
+}
