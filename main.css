@@ -4,7 +4,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-    font-family: 'Russo One', Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
     color: #222;
 }
 
@@ -81,8 +81,4 @@ a {
 
 .description {
     width: 350px;
-}
-
-.left_column {
-
 }
