@@ -4,16 +4,16 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+    font-family: 'Russo One', Roboto, sans-serif;
+    color: #222;
 }
 
-header {
-    background-color: #FAFBFA;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+.logo {
     display: flex;
     justify-content: center;
 }
 
-.logo {
+.logo-img {
     height: 80px;
     width: 80px;
     margin: 10px;
@@ -37,7 +37,7 @@ header {
 
 main {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 50px;
 }
 
@@ -48,11 +48,16 @@ main {
 }
 
 .preview {
-    height: 400px;
+    height: 500px;
+    margin-left: 50px;
+}
+
+.download {
+    margin-top: 25px;
+    width: 250px;
 }
 
 footer {
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
     display: flex;
     justify-content: space-around;
 	padding: 35px;
@@ -69,8 +74,15 @@ footer {
 
 a {
     font-size: 12px;
-    font-family: 'Russo One', Roboto, sans-serif;
-    color: black;
+    color: #222;
     text-decoration-line: none;
 	margin: 0 5px;
+}
+
+.description {
+    width: 350px;
+}
+
+.left_column {
+
 }
