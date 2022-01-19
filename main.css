@@ -39,8 +39,10 @@ main {
 }
 
 .preview {
-    height: 570px;
+    height: 560px;
     margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .download {
